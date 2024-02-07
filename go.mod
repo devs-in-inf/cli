@@ -1,11 +1,11 @@
 module github.com/project-flogo/cli
 
-go 1.18
+go 1.21
 
 require (
 	github.com/coreos/go-semver v0.3.1
 	github.com/msoap/byline v1.1.1
-	github.com/project-flogo/core v1.6.8-rc.1.0.20240115071333-70a08c416803
+	github.com/project-flogo/core v1.6.8
 	github.com/spf13/cobra v1.8.0
 	github.com/stretchr/testify v1.8.4
 )
@@ -21,3 +21,5 @@ require (
 	go.uber.org/zap v1.16.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
+
+replace github.com/project-flogo/cli => github.com/devs-in-inf/cli
