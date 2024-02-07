@@ -22,4 +22,4 @@ require (
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
 
-replace github.com/project-flogo/cli => github.com/devs-in-inf/cli@latest
+replace github.com/project-flogo/cli@latest => github.com/devs-in-inf/cli@latest
